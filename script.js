@@ -587,7 +587,6 @@ function removeWeakPoint(slotIndex, wpIndex) {
 function updateNotes(slotIndex, value) {
   const workout = getCurrentWorkout();
   workout.slots[slotIndex].notes = value;
-  saveWorkout();
 }
 
 // Rerender specific sections for efficiency
